@@ -13,6 +13,9 @@ a {
 img {
     max-width: 400px;
     max-height: auto;
+    padding-right: 110px;
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 h1 {
@@ -33,17 +36,28 @@ h1 {
 .left {
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 300px;
+    padding-left: 120px;
 }
 
 .holder {
     display: flex;
-    background-color: indianred;
+    background-color: #990000;
     color: white;
+    justify-content: space-between;
 }
 
 .links {
     display: flex;
     gap: 10px;
+    padding-right: 90px;
+}
+
+button {
+    align-items: flex-end;
+    width: 70px;
 }
 
 @font-face {
