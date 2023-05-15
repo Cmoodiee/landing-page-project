@@ -18,11 +18,17 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: indianred;
+    background-color: darkred;
     color: white;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
 .holder {
+    display: flex;
     background-color: indianred;
     color: white;
 }
