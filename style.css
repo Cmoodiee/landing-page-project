@@ -14,11 +14,15 @@ img {
     max-height: auto;
 }
 
+h1 {
+    font-family: myfont;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: darkred;
+    background-color: #990000;
     color: white;
 }
 
@@ -38,3 +42,7 @@ img {
     gap: 10px;
 }
 
+@font-face {
+    font-family: myfont;
+    src: url(bata.ttf);
+}
