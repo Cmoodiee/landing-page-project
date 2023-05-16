@@ -10,11 +10,12 @@ a {
     color: antiquewhite;
 }
 
-img {
+.holder img {
     max-width: 450px;
     max-height: auto;
     padding-right: 200px;
     padding-bottom: 40px;
+    overflow: none;
 }
 
 h1 {
@@ -83,4 +84,10 @@ button {
 @font-face {
     font-family: myfont;
     src: url(bata.ttf);
+}
+
+.upper-sub img {
+    height: auto;
+    width: 400px;
+    border: 100px;
 }
