@@ -94,7 +94,7 @@ button {
 .upper-sub {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+
 }
 
 .upper-sub p {
@@ -103,6 +103,7 @@ button {
     font-size: 36px;
     font-weight: bold;
     width: 500px;
+    padding: 40px;
 }
 
 .info {
@@ -117,4 +118,10 @@ button {
   align-items: center;
   gap: 52px;
   text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.three img {
+    height: 133.33px;
 }
