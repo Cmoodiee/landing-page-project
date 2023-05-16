@@ -88,6 +88,11 @@ button {
 
 .upper-sub img {
     height: auto;
-    width: 400px;
-    border: 100px;
+    width: 200px;
+}
+
+.info {
+    display: flex;
+    max-width: 100px;
+    text-align: center;
 }
