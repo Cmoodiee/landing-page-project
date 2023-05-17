@@ -84,6 +84,9 @@ button {
 @font-face {
     font-family: myfont;
     src: url(bata.ttf);
+
+    font-family: lightitallic;
+    src: url(SourceSansPro-LightItalic.ttf)
 }
 
 .upper-sub img {
@@ -118,10 +121,40 @@ button {
   align-items: center;
   gap: 52px;
   text-align: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .three img {
     height: 133.33px;
+}
+
+.lower-sub{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 90px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.proverb {
+    font-size: 36px;
+    width: 800px;
+    /* text-align: center; */
+    font-style: oblique;
+    align-items: center;
+    font-family: lightitallic;
+    color: #990000;
+
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 640px;
+    font-size: 18px;
+    font: bolder;
+    color: #990000;
 }
