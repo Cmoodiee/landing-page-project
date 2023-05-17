@@ -164,7 +164,7 @@ button {
     
     background-color: #990000;
     color: antiquewhite;
-    margin: 50px;
+    margin: 80px;
     margin-left: 220px;
     margin-right: 220px;
     padding: 20px;
@@ -177,11 +177,13 @@ button {
 .bottom-sect button {
     margin: auto;
     padding: 10px;
+    
 }
 
 .txt {
     font-size: 20px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .txt-two {
