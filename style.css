@@ -49,8 +49,9 @@ p {
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
-    width: 300px;
+    width: 370px;
     padding-left: 200px;
+    padding-bottom: 20px;
 }
 
 .holder {
@@ -63,7 +64,7 @@ p {
 
 .links {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding-right: 180px;
 }
 
