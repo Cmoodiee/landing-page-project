@@ -153,8 +153,8 @@ button {
 .quote {
     display: flex;
     justify-content: flex-end;
-    padding-left: 640px;
+    padding-left: 520px;
     font-size: 18px;
-    font: bolder;
+    font-weight: 900;
     color: #990000;
 }
