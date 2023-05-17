@@ -158,3 +158,32 @@ button {
     font-weight: 900;
     color: #990000;
 }
+
+.bottom-sect {
+    display: flex;
+    
+    background-color: #990000;
+    color: antiquewhite;
+    margin: 50px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 20px;
+    padding-left: 130px;
+    border-radius: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bottom-sect button {
+    margin: auto;
+    padding: 10px;
+}
+
+.txt {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.txt-two {
+    font-weight: 50;
+}
