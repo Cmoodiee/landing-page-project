@@ -84,7 +84,9 @@ button {
 @font-face {
     font-family: myfont;
     src: url(bata.ttf);
+}
 
+@font-face {
     font-family: lightitallic;
     src: url(SourceSansPro-LightItalic.ttf)
 }
